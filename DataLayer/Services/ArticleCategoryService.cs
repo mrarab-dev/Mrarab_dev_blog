@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Services
 {
-    public class ArticleCatgory : IArticleCatgory
+    public class ArticleCategoryService : IArticleCatgory
     {
         private readonly BlogContext _blogContext;
         public IEnumerable<ArticleCategory> GetCategories()
